@@ -11,10 +11,21 @@ datasource db {
 }
 
 model User {
+  id           String    @id
+  fullname     String
+  email        String    @unique
+  phone        String
+  registeredAt String
+  password     String
+  Contact      Contact[]
+}
+
+model Contact {
   id           String @id
   fullname     String
   email        String @unique
   phone        String
   registeredAt String
-  password     String
+  user         User   @relation(fields: [userId], references: [id])
+  userId       String
 }

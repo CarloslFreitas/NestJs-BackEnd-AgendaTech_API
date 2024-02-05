@@ -7,7 +7,7 @@ export class Contact {
   fullname: string;
   email: string;
   phone: string;
-  registeredAt: Date = new Date();
+  registeredAt: string = new Date().toISOString();
 
   constructor() {
     this.id = randomUUID();

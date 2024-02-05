@@ -17,15 +17,16 @@ model User {
   phone        String
   registeredAt String
   password     String
+  isAdmin      Boolean
   Contact      Contact[]
 }
 
 model Contact {
   id           String @id
   fullname     String
-  email        String @unique
+  email        String
   phone        String
   registeredAt String
-  user         User   @relation(fields: [userId], references: [id])
+  user         User   @relation(fields: [userId], references: [id], onDelete: Cascade)
   userId       String
 }

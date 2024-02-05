@@ -8,6 +8,7 @@ export class User {
   email: string;
   phone: string;
   registeredAt: string = new Date().toISOString();
+  isAdmin: boolean = false;
 
   @Exclude()
   password: string;

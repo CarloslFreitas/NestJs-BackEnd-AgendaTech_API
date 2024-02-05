@@ -26,4 +26,21 @@ export class AuthService {
       ),
     };
   }
+
+  async validateToken(token: string) {
+    const decoded = this.jwtService.verify(token, {
+      subject: process.env.SECRET_KEY,
+    });
+    if (!decoded) {
+      throw new UnauthorizedException('Invalid token.');
+    }
+    const user = await this.usersService.findById(decoded.subject);
+    if (!user) {
+      throw new UnauthorizedException('User not found.');
+    }
+    if (decoded.exp < Date.now()) {
+      throw new UnauthorizedException('Token expired.');
+    }
+    return user;
+  }
 }

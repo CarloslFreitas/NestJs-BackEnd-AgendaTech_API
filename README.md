@@ -1,7 +1,8 @@
 
-## Description
+## Descrição
+Uma API construida em NestJs para gerenciamento de contatos, possuindo rotas para Login e Cadastro permitindo que cada usário tenha sua própria agenda online.
 
-## Installation
+## Instalação
 
 ```bash
 $ npm install

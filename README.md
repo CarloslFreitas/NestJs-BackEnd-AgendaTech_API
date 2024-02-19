@@ -11,9 +11,12 @@ $ npm install
 ## Iniciando a Aplicação
 Após a instalação das dependências, utilize o comando seguinte para iniciar a aplicação localmente.
 ```bash
-# development
 $ npm run start
 ```
-A rota padrão definida para acessar a documentação da API é: localhost:3001
+
+## Documentação
+Rota padrão definida para acessar a documentação da API: ```bash $ localhost:3001/docs```
+![image](https://github.com/Kenzie-Academy-Brasil-Developers/M6-Fullstack-Tech_CarloslFreitas/assets/37638947/d70a10ed-fb0f-4500-909d-508be90095c4)
+
 
 # M6-Fullstack-Tech_CarloslFreitas

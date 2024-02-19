@@ -7,11 +7,12 @@ Utilize o comando abaixo para a instalação dos pacotes de dependências necess
 ```bash
 $ npm install
 ```
+Obs: Caso no processo de instalação ou inicialização da aplicação der um erro de versão npm, utilize o comando ``` npm install -g npm@6.14.6 ``` para dar um downgrade caso a versão seja superior, porque versões mais recentes do npm dão erro na instalação dos pacotes e na inicialização da aplicação. 
 
 ## Iniciando a Aplicação
 Após a instalação das dependências, utilize o comando seguinte para iniciar a aplicação localmente.
 ```bash
-$ npm run start
+$ npm run start:dev
 ```
 
 ## Documentação

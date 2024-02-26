@@ -21,7 +21,7 @@ $ npm run start:dev
 ```
 
 ## Documentação
-Acesse a rota definida para acessar a documentação da API para entender o padrão de resposta exigido por cada rota disponível para as requisições: 
+Acesse a rota definida para acessar a documentação da API para entender o padrão de inputs e respostas exigido por cada rota disponível para as requisições: 
 Documentação: ```localhost:3001/docs```.
 baseUrl: ```localhost:3001```
 

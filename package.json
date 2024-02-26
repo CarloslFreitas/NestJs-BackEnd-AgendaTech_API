@@ -33,6 +33,8 @@
     "class-validator": "^0.14.1",
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1",
+    "pdf-generator": "^1.0.4",
+    "pdfkit": "^0.14.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1"
   },

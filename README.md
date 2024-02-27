@@ -26,6 +26,3 @@ Documentação: ```localhost:3001/docs```.
 baseUrl: ```localhost:3001```
 
 ![image](https://github.com/Kenzie-Academy-Brasil-Developers/M6-Fullstack-Tech_CarloslFreitas/assets/37638947/d70a10ed-fb0f-4500-909d-508be90095c4)
-
-
-# M6-Fullstack-Tech_CarloslFreitas

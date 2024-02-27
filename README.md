@@ -12,7 +12,7 @@ Obs: Caso no processo de instalação ou inicialização da aplicação der um e
 ## Configurações iniciais importantes
 Antes de tudo, crie um arquivo ```.env``` no diretório principal e siga o exemplo do arquivo ```.env.example```, substituindo as dicas localizadas dentro das chaves { }. A SECRET_KEY fica ao seu critério.
 
-Para garantir o bom funcionamento e inicialização da aplicação, e após configurar o arquivo `.env`, rode as migrações com o comando: `npx prisma migrate dev```
+Para garantir o bom funcionamento e inicialização da aplicação, e após configurar o arquivo `.env`, rode as migrações com o comando: ```npx prisma migrate dev```
 
 ## Iniciando a Aplicação
 Após a instalação das dependências, utilize o comando seguinte para iniciar a aplicação localmente.
